@@ -1,0 +1,26 @@
+.add_navi {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.navies {
+  display: flex;
+  gap: 2px;
+}
+
+.rdo_navi {
+  display: none;
+}
+
+.lbl_navi {
+  padding: 4px;
+}
+
+.lbl_navi:hover,
+.rdo_navi:checked + label {
+  background-color: #ff6f0f;
+  color: #fff;
+  border-radius: 12px;
+}

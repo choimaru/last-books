@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+}
+
+.logout {
+  display: flex;
+  width: 120px;
+  margin: 0 auto;
+}

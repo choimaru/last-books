@@ -1,0 +1,23 @@
+.box_result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background-color: #eff6ff;
+  border-radius: 8px;
+  padding: 8px 8px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 88px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 0.9em;
+}
+
+.progress {
+  text-align: center;
+}
